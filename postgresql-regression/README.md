@@ -19,7 +19,7 @@ bash ./load.sh
 ## Project tree
 
 `./postgresql-regression`
- * [curl.conf`](./postgresql-regression/curl.conf) - `curl` configuration file
+ * [`curl.conf`](./postgresql-regression/curl.conf) - `curl` configuration file
  * [`extract.awk`](./postgresql-regression/extract.awk) - `gawk` script
  * [`pg_service.conf`](./postgresql-regression/pg_service.conf) - PostgreSQL connection configuration file
  * [`extract.sh`](./postgresql-regression/extract.sh) - Bash script used for extracting (downloading) SQL and data files from the PostgreSQL repository
