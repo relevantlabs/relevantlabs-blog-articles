@@ -1,0 +1,3 @@
+# "Recreating PostgreSQL Sample Tables from Regression Tests"
+# Ignore downloaded and script generated files
+/postgresql-regression/download
