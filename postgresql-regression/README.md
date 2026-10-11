@@ -1,6 +1,6 @@
 # Recreating PostgreSQL Sample Tables from Regression Tests
 
-Bash script used in my blog page [Recreating PostgreSQL Sample Tables from Regression Tests](https://www.relevantlabs.pl/).
+Bash script used in my blog page [Recreating PostgreSQL Sample Tables from Regression Tests](https://www.relevantlabs.pl/2026/2026-10-11-recreating-postgresql-sample-tables.html).
 
 ## Usage
 
