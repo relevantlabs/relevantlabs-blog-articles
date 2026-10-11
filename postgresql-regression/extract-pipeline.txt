@@ -1,0 +1,36 @@
+     Download files from PostgreSQL GitHub
+                      │
+          ┌───────────┴───────────┐
+          │                       │
+       SQL files              .data files
+          │                       │
+          ▼                       ▼
+      downloaded              downloaded
+ into ${data_dir}/sql      into ${data_dir}/data
+          │                       │
+          └───────────┬───────────┘
+                      │
+                      ▼
+        .data file paths extracted into
+          ${data_dir}/data-files.txt
+                      │
+                      ▼
+          ┌─────────────────────┐
+          │    CREATE TABLE     │
+          │    + \copy          │
+          │    extraction       │
+          └──────────┬──────────┘
+                     │
+                     ▼
+        SQL commands extracted into
+     ${data_dir}/sample-data-setup.sql
+                     │
+                     ▼
+          ┌─────────────────────┐
+          │    CREATE INDEX     │
+          │    extraction       │
+          └──────────┬──────────┘
+                     │
+                     ▼
+        SQL commands extracted into
+       ${data_dir}/create-index.sql
